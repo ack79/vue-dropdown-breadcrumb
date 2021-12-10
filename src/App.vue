@@ -1,8 +1,6 @@
 <template>
   <div id="app">
-    <span class="material-icons"> expand_more </span>
-    <span class="material-icons"> chevron_right </span>
-    <BreadCrumb />
+    <BreadCrumb :links="dummyBreadcrumbUrls" />
   </div>
 </template>
 
@@ -10,7 +8,7 @@
 import BreadCrumb from "./components/BreadCrumb.vue";
 export default {
   name: "App",
-  data () {
+  data() {
     return {
       dummyBreadcrumbUrls: [
         {
