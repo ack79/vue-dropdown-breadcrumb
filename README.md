@@ -3,3 +3,25 @@
 
 # vue-dropdown-breadcrumb
 A breadcrumb library with dropdown option
+
+**Expexted params format**
+```
+[
+	{
+		label: String
+		link: String
+		isDropdown: Boolean,
+		list: Array,
+	},
+	{
+		label: String,
+		isDropdown: Boolean,
+		list: [
+			{
+				label: String,
+				link: String,
+			},
+		],
+	},
+]
+```
