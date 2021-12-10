@@ -1,5 +1,8 @@
 <template>
-  <div id="app"></div>
+  <div id="app">
+    <span class="material-icons"> expand_more </span>
+    <span class="material-icons"> chevron_right </span>
+  </div>
 </template>
 
 <script>
