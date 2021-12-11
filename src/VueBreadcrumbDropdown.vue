@@ -77,7 +77,8 @@ export default {
       &:last-child {
         cursor: default;
         .url {
-          color: #2f3e46;
+          color: white;
+          font-weight: 700;
         }
       }
       &:hover {
@@ -88,18 +89,18 @@ export default {
       .url {
         font-size: 14px;
         line-height: 15px;
-        color: #84a98c;
+        color: white;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
       }
       .material-icons {
         font-size: 14px;
-        color: #84a98c;
+        color: white;
         margin-left: 5px;
       }
       .dropdown-item {
-        border: 1px solid #84a98c;
+        border: 1px solid white;
         border-radius: 10px;
         padding: 5px 10px;
         display: flex;

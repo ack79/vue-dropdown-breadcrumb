@@ -6,7 +6,7 @@
           v-for="(dropList, index) in dropdownList"
           :key="`sublink-${index}`"
         >
-          <span class="dropdown-name">{{ dropList.label }}</span>
+          <a :href="dropdownList.link"> <span class="dropdown-name">{{ dropList.label }}</span></a>
         </li>
       </ul>
     </div>
