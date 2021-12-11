@@ -13,15 +13,28 @@
           :href="link.link"
         >
           {{ link.label }}
-          <span v-if="link.isDropdown" class="material-icons">
+          <span
+            v-if="link.isDropdown"
+            class="material-icons"
+          >
             expand_more
           </span>
         </a>
-        <p class="url" v-else>{{ link.label }}</p>
-        <span v-if="index !== links.length - 1" class="material-icons">
+        <p
+          class="url"
+          v-else
+        >{{ link.label }}</p>
+        <span
+          v-if="index !== links.length - 1"
+          class="material-icons"
+        >
           chevron_right
         </span>
-        <HoverDropdown class="sublinks" v-if="link.isDropdown"></HoverDropdown>
+        <HoverDropdown
+          class="sublinks"
+          v-if="link.isDropdown"
+          :dropdownList="link.list"
+        ></HoverDropdown>
       </li>
     </ul>
   </div>
@@ -30,7 +43,7 @@
 import HoverDropdown from "./HoverDropdown.vue";
 export default {
   name: "VueDropdownBreadcrumb",
-  data() {
+  data () {
     return {
       isDropdown: true,
     };
@@ -48,7 +61,7 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 .breadcrumb {
   .links {

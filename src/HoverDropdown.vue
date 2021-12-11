@@ -2,14 +2,11 @@
   <section class="hover-dropdown-list">
     <div class="hover-dropdown-list-content">
       <ul class="dropdown-list">
-        <li>
-          <span class="dropdown-name">Android Telefonlar</span>
-        </li>
-        <li>
-          <span class="dropdown-name">İphone İOS Telefonlar</span>
-        </li>
-        <li>
-          <span class="dropdown-name">Diğer Telefonlar</span>
+        <li
+          v-for="(dropList, index) in dropdownList"
+          :key="`sublink-${index}`"
+        >
+          <span class="dropdown-name">{{ dropList.label }}</span>
         </li>
       </ul>
     </div>
@@ -17,7 +14,14 @@
 </template>
 <script>
 export default {
-	name: "HoverDropdown",
+  name: "HoverDropdown",
+  props: {
+    dropdownList: {
+      type: Array,
+      default: () => [],
+      required: true,
+    },
+  },
 }
 </script>
 <style lang="scss" scoped>
