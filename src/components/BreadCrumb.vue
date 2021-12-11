@@ -32,17 +32,27 @@
         </ul>
       </li>
     </ul>
+    <HoverDropdown></HoverDropdown>
   </div>
 </template>
 <script>
+import HoverDropdown from "./HoverDropdown.vue";
 export default {
   name: "BreadCrumb",
+  data() {
+    return {
+      isDropdown: true,
+    };
+  },
   props: {
     links: {
       type: Array,
       default: () => [],
       required: true,
     },
+  },
+  components: {
+    HoverDropdown,
   },
 };
 </script>
@@ -89,6 +99,9 @@ export default {
         display: none;
         .sublink-item {
         }
+      }
+      .sublinks:hover {
+        color: red;
       }
     }
   }
