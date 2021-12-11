@@ -21,11 +21,11 @@
   .hover-dropdown-list-content {
     overflow: hidden;
     padding: 0px 15px;
-    background-color: white;
+    //background-color: white;
     width: 200px;
-    position: absolute;
-    top: 6%;
-    left: 43%;
+    //position: absolute;
+    //top: 6%;
+    //left: 43%;
     margin-left: -210px;
     border-radius: 10px;
     text-align: left;
