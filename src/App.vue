@@ -26,6 +26,7 @@ export default {
         {
           label: "Cep Telefonları",
           isDropdown: true,
+          link: "https://dementor.com/telefon-aksesuarlar",
           list: [
             {
               label: "Android Telefonlar",
@@ -55,4 +56,8 @@ export default {
 };
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+a {
+  text-decoration: none;
+}
+</style>
