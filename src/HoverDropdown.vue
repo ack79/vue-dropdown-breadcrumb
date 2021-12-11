@@ -15,7 +15,11 @@
     </div>
   </section>
 </template>
-<script></script>
+<script>
+export default {
+	name: "HoverDropdown",
+}
+</script>
 <style lang="scss" scoped>
 .hover-dropdown-list {
   .hover-dropdown-list-content {

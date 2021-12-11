@@ -29,7 +29,7 @@
 <script>
 import HoverDropdown from "./HoverDropdown.vue";
 export default {
-  name: "BreadCrumb",
+  name: "VueDropdownBreadcrumb",
   data() {
     return {
       isDropdown: true,
@@ -48,6 +48,8 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
 .breadcrumb {
   .links {
     list-style-type: none;
