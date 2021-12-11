@@ -21,11 +21,10 @@
   .hover-dropdown-list-content {
     overflow: hidden;
     padding: 0px 15px;
-    background-color: white;
     width: 200px;
     position: absolute;
-    top: 6%;
-    left: 43%;
+    top: 11%;
+    left: 25%;
     margin-left: -210px;
     border-radius: 10px;
     text-align: left;
@@ -49,10 +48,10 @@
         align-items: center;
         padding: 15px 15px;
         height: 35px;
-        background: #84a98c;
+        background: #e9f2e9;
 
         &:nth-child(2n) {
-          background: #cad2c5;
+          background: #f0f2f0;
         }
         span {
           display: inline-block;
@@ -77,9 +76,9 @@
     position: absolute;
     width: 15px;
     height: 15px;
-    background-color: #84a98c;
+    background-color: #e9f2e9;
     top: 17px;
-    left: 45%;
+    left: 62%;
     box-sizing: border-box;
     transform-origin: 0 0;
     transform: rotate(135deg);

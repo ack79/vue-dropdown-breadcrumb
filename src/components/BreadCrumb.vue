@@ -13,15 +13,27 @@
           :href="link.link"
         >
           {{ link.label }}
-          <span v-if="link.isDropdown" class="material-icons">
+          <span
+            v-if="link.isDropdown"
+            class="material-icons"
+          >
             expand_more
           </span>
         </a>
-        <p class="url" v-else>{{ link.label }}</p>
-        <span v-if="index !== links.length - 1" class="material-icons">
+        <p
+          class="url"
+          v-else
+        >{{ link.label }}</p>
+        <span
+          v-if="index !== links.length - 1"
+          class="material-icons"
+        >
           chevron_right
         </span>
-        <ul class="sublinks" v-if="link.isDropdown">
+        <ul
+          class="sublinks"
+          v-if="link.isDropdown"
+        >
           <li
             class="sublink-item"
             v-for="(sublink, index) in link.list"
@@ -39,7 +51,7 @@
 import HoverDropdown from "./HoverDropdown.vue";
 export default {
   name: "BreadCrumb",
-  data() {
+  data () {
     return {
       isDropdown: true,
     };
@@ -97,11 +109,6 @@ export default {
       .sublinks {
         list-style-type: none;
         display: none;
-        .sublink-item {
-        }
-      }
-      .sublinks:hover {
-        color: red;
       }
     }
   }
