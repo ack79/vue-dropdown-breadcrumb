@@ -6,10 +6,16 @@
         v-for="(link, index) in links"
         :key="`link-${index}`"
       >
-        <a v-if="!link.isDropdown" :href="link.link">{{ link.label }}</a>
+        <a
+          v-if="!link.isDropdown"
+          :href="link.link"
+        >{{ link.label }}</a>
         <p v-else>{{ link.label }}</p>
         <span class="material-icons"> chevron_right </span>
-        <ul class="sublinks" v-if="link.isDropdown">
+        <ul
+          class="sublinks"
+          v-if="link.isDropdown"
+        >
           <li
             class="sublink-item"
             v-for="(sublink, index) in link.list"
@@ -20,17 +26,27 @@
         </ul>
       </li>
     </ul>
+    <HoverDropdown></HoverDropdown>
   </div>
 </template>
 <script>
+import HoverDropdown from "./HoverDropdown.vue";
 export default {
   name: "BreadCrumb",
+  data () {
+    return {
+      isDropdown: true,
+    };
+  },
   props: {
     links: {
       type: Array,
       default: () => [],
       required: true,
     },
+  },
+  components: {
+    HoverDropdown,
   },
 };
 </script>
@@ -45,8 +61,9 @@ export default {
 
       .sublinks {
         list-style-type: none;
-        .sublink-item {
-        }
+      }
+      .sublinks:hover {
+        color: red;
       }
     }
   }
