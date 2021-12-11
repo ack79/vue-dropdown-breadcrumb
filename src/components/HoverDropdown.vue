@@ -31,7 +31,7 @@
     text-align: left;
     max-height: 600px;
     overflow-y: auto;
-
+    border-radius: 20px;
     @media (max-width: 640px) {
       position: fixed;
       padding: 30px 10px;
@@ -43,16 +43,18 @@
       border-radius: 0;
     }
     .dropdown-list {
+      padding: 0;
+      box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.1);
       li {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 15px 15px;
         height: 35px;
-        background: #84a98c;
+        background: #fcf7f7;
 
         &:nth-child(2n) {
-          background: #cad2c5;
+          background: #ffff;
         }
         span {
           display: inline-block;
@@ -77,9 +79,9 @@
     position: absolute;
     width: 15px;
     height: 15px;
-    background-color: #84a98c;
-    top: 17px;
-    left: 45%;
+    background-color: #fcf7f7;
+    top: 0;
+    left: 5px;
     box-sizing: border-box;
     transform-origin: 0 0;
     transform: rotate(135deg);

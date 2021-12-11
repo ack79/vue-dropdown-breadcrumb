@@ -93,8 +93,8 @@ export default {
       .sublinks {
         display: none;
         position: absolute;
-        top: 0;
-        left: 50%;
+        top: 45px;
+        left: 70%;
       }
     }
   }
