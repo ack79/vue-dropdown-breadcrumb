@@ -1,7 +1,7 @@
 ### Notes
 [Üç Büyücü Turnuvası](https://github.com/topics/ucbuyucuturnuvasi)
 
-This library was developed as part of the `Üç Büyücü Turnuvası` hackathon.Our destination is to learn how to  open source licences,use the github pages,write test for ui component and npm package the vue component and publish it.The library, besides being simple, entertained us a lot during development and taught us a lot.
+This library was developed as part of the `Üç Büyücü Turnuvası` hackathon. Our destination is to learn how to  open source licences,use the github pages,write test for ui component and npm package the vue component and publish it. The library, besides being simple, entertained us a lot during development and taught us a lot.
 Thank You.
 
 # Trello Board and Roadmap
@@ -15,11 +15,20 @@ A breadcrumb library with dropdown option
 
 ### Links
 [Demo](https://ack79.github.io/vue-dropdown-breadcrumb/)
+[View on npm](https://www.npmjs.com/package/vue-dropdown-breadcrum)
+[View on GitHub](https://github.com/ack79/vue-dropdown-breadcrumb)
 
+
+### Install
+##### Download
+```
+# npm
+npm i vue-dropdown-breadcrumb
+```
 ### About
 
 A simple breadcrumb library.In addition to working as a breadcrumb, it also enables sub-categories to be listed as dropdown.
-We just need to change the `isDropdown` parameter of the general categories whose subcategories we want to show and pass the link list.In this way, users can easily switch between categories.Css can be easily edited by you.
+We just need to change the `isDropdown` parameter of the general categories whose subcategories we want to show and pass the link list.In this way, users can easily switch between categories. Css can be easily edited by you. We used magic words from Harry Potter series at the beginning of our commits to fit the hackathon concept :)
 
 
 ### Usage Example
