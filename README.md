@@ -13,10 +13,14 @@ A breadcrumb library with dropdown option
   <a href="http://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
 </p>
 
+### Links
+[Demo](https://ack79.github.io/vue-dropdown-breadcrumb/)
+
 ### About
 
 A simple breadcrumb library.In addition to working as a breadcrumb, it also enables sub-categories to be listed as dropdown.
 We just need to change the `isDropdown` parameter of the general categories whose subcategories we want to show and pass the link list.In this way, users can easily switch between categories.Css can be easily edited by you.
+
 
 ### Usage Example
 
