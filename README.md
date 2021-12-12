@@ -15,7 +15,9 @@ A breadcrumb library with dropdown option
 
 ### Links
 [Demo](https://ack79.github.io/vue-dropdown-breadcrumb/)
+
 [View on npm](https://www.npmjs.com/package/vue-dropdown-breadcrum)
+
 [View on GitHub](https://github.com/ack79/vue-dropdown-breadcrumb)
 
 
