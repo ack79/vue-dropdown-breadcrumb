@@ -1,7 +1,7 @@
 ### Notes
 [Üç Büyücü Turnuvası](https://github.com/topics/ucbuyucuturnuvasi)
 
-This library was developed as part of the `Üç Büyücü Turnuvası` hackathon.Our destination is to learn how to  open source licences,use the github pages,write test for ui component and npm package the vue component and publish it.TThe library, besides being simple, entertained us a lot during development and taught us a lot.
+This library was developed as part of the `Üç Büyücü Turnuvası` hackathon.Our destination is to learn how to  open source licences,use the github pages,write test for ui component and npm package the vue component and publish it.The library, besides being simple, entertained us a lot during development and taught us a lot.
 Thank You.
 
 # Trello Board and Roadmap
@@ -13,27 +13,6 @@ A breadcrumb library with dropdown option
   <a href="http://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
 </p>
 
-**Expexted params format**
-```
-[
-	{
-		label: String
-		link: String
-		isDropdown: Boolean,
-		list: Array,
-	},
-	{
-		label: String,
-		isDropdown: Boolean,
-		list: [
-			{
-				label: String,
-				link: String,
-			},
-		],
-	},
-]
-```
 ### About
 
 A simple breadcrumb library.In addition to working as a breadcrumb, it also enables sub-categories to be listed as dropdown.

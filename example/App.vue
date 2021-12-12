@@ -1,16 +1,5 @@
 <template>
   <div id="app">
-
-    <!-- <div style="width:70%;height:0;padding-bottom:53%;position:relative;"><iframe
-        src="https://giphy.com/embed/Gfc3MUuDABaSc"
-        width="70%"
-        height="70%"
-        style="position:absolute"
-        frameBorder="0"
-        class="giphy-embed"
-        allowFullScreen
-      ></iframe></div>
-    <p><a href="https://giphy.com/gifs/hp-patronus-spells-Gfc3MUuDABaSc">via GIPHY</a></p> -->
     <iframe
       src="https://giphy.com/embed/Gfc3MUuDABaSc"
       width="480"
